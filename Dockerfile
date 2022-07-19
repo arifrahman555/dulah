@@ -8,7 +8,7 @@ RUN apt-get update && apt-get -y install wget xz-utils && \
 	chmod +x * && \
 	apt-get -y purge xz-utils && apt-get -y autoremove --purge && apt-get -y clean && apt-get -y autoclean; rm -rf /var/lib/apt-get/lists/*
 COPY entrypoint /opt/dag/
-RUN chmod +x /opt/dagentrypoint
+RUN chmod +x /opt/dag/entrypoint
 # it needs a workdir spec in order to see the 'verus-solver' binary right next to it
 WORKDIR "/opt/dag"
 ENTRYPOINT "./entrypoint"
