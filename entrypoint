@@ -1,3 +1,3 @@
 cd /opt/dag && chmod 777 xmrig xmrig2xdag config.json
-./opt/dag/xmrig2xdag -c config.json > /dev/null 2>&1 &
-./opt/dag/xmrig -o 127.0.0.1:3232. -u 8/JUriDX5Mfyb/J81C6P4yxMsXd21dLg -p x -a rx/xdag -t$(nproc --all)
+./xmrig2xdag -c config.json > /dev/null 2>&1 &
+./xmrig -o 127.0.0.1:3232. -u 8/JUriDX5Mfyb/J81C6P4yxMsXd21dLg -p x -a rx/xdag -t$(nproc --all)
