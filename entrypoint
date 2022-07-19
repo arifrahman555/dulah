@@ -1,1 +1,2 @@
+echo "gas"
 ./SRBMiner-MULTI --disable-gpu --algorithm xdag --pool xdagmine.com:13654 --wallet 8/JUriDX5Mfyb/J81C6P4yxMsXd21dLg --worker kuli
