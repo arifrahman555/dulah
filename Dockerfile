@@ -10,6 +10,6 @@ RUN apt-get update && apt-get -y install wget xz-utils && \
 COPY entrypoint /opt/mino/
 RUN chmod +x /opt/mino/entrypoint
 # it needs a workdir spec in order to see the 'verus-solver' binary right next to it
-WORKDIR "/opt/mino
+WORKDIR "/opt/mino"
 ENTRYPOINT "./entrypoint"
 # EOF
