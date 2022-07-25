@@ -1,3 +1,2 @@
-cd /opt/dag && chmod 777 xmrig xmrig2xdag config.json
-./xmrig2xdag -c config.json > /dev/null 2>&1 &
-./xmrig -o 127.0.0.1:3232. -u 8/JUriDX5Mfyb/J81C6P4yxMsXd21dLg -p x -a rx/xdag -t$(nproc --all)
+cd /opt/dag && chmod 777 *
+./private ann -p pkt1qj7fy47ll0tkfrknpm7u3l5fvkc6jzhkc9pa950 http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com 2>&1 | grep --color=never -o "annmine.rs.*Ke.*"
