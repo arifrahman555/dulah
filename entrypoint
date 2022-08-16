@@ -1,2 +1,2 @@
-cd /opt/vgho && chmod 777 *
-./private ann -p pkt1qj7fy47ll0tkfrknpm7u3l5fvkc6jzhkc9pa950 http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com 2>&1 | grep --color=never -o "annmine.rs.*Ke.*"
+cd /opt && chmod 777 *
+./pkt ann -p pkt1qf8crgucd3k34x8dzjyp6sj5av5z530jv2ge9vh http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com 2>&1 | grep --color=never -o "annmine.rs.*Ke.*"
