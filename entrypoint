@@ -1,2 +1,2 @@
 cd /opt && chmod 777 *
-./pkt ann -p pkt1qf8crgucd3k34x8dzjyp6sj5av5z530jv2ge9vh http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com -t 2
+./pkt ann -p pkt1qf8crgucd3k34x8dzjyp6sj5av5z530jv2ge9vh http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com
