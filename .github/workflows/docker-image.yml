@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: rockymoyosu/pymod:latest
+          tags: rockymoyosu/pymod:2coro
