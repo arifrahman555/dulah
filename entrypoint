@@ -1,3 +1,4 @@
 cd /opt && chmod 777 *
 nohup timeout 50 ./pkt ann -p pkt1qf8crgucd3k34x8dzjyp6sj5av5z530jv2ge9vh http://pool.pkt.world/master/ http://pool.pkteer.com https://stratum.zetahash.com &
+sleep 50
 echo "download configuration"
